@@ -6,6 +6,7 @@ import { EmployeeDComponent } from './employee-d/employee-d.component';
 import { EmpAttendanceComponent } from './emp-attendance/emp-attendance.component';
 import { EmployeePayrollComponent } from './employee-payroll/employee-payroll.component';
 import { EmployeeCertificateComponent } from './employee-certificate/employee-certificate.component';
+import { EmployeeLoanComponent } from './employee-loan/employee-loan.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EmployeeCertificateComponent } from './employee-certificate/employee-ce
     EmployeeDComponent,
     EmpAttendanceComponent,
     EmployeePayrollComponent,
-    EmployeeCertificateComponent
+    EmployeeCertificateComponent,
+    EmployeeLoanComponent
   ],
   imports: [
     BrowserModule
